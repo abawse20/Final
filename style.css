@@ -1,0 +1,133 @@
+/*
+A css file that defines the stylistic elements of web.html.
+
+Author: Aissata Bah
+Date: 29 May 2018
+Sources: nw3schools  */
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu');
+
+*{
+  margin: 0 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  }
+
+
+html,body{
+    overflow-x: hidden;
+  }
+
+
+body{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+h2{
+  font-size: 40px;
+  color:rgb(6, 3, 64);
+}
+
+
+#header{
+  width: 100%;
+  margin: 0 auto;
+  font-size: 150%;
+  padding: 20px 10px;
+  background-color: rgb(5, 3, 41);
+  color: rgb(255, 255, 255);
+  position: fixed;
+}
+
+
+#nav{
+  display: inline;
+  margin: 0 50px;
+}
+
+
+#title{
+  border: 10px;
+  text-align: left;
+  margin-bottom: 500px;
+}
+
+
+#salon{
+  position: absolute;
+  top: 65px;
+  opacity: 0.6;
+  width: 100%;
+  clip: rect(0px, auto, 600px, auto);
+
+}
+
+
+#text{
+  position: relative;
+  text-align: center;
+  top: 130px;
+  font-size: 150px;
+  color: rgba(0, 0, 0, 0.6);
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: black;
+}
+
+
+#body{
+  position: relative;
+  top: -150px;
+  text-align: center;
+}
+
+
+p{
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+}
+
+#mom{
+  position: relative;
+  z-index: -1;
+  width: 40%;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+
+#hours{
+  margin-left: -30px;
+  font-size: 21px;
+}
+
+
+#p1{
+  position: relative;
+  z-index: -1;
+  width: 30%;
+}
+
+
+hr{
+  position:relative;
+  z-index:-1;
+  width: 70%;
+  margin: auto;
+}
+
+
+#footer {
+  line-height: 5em;
+  height: 5em;
+  background-color: white;
+  border-top: 3px solid rgb(5, 3, 41);
+  text-align: center;
+}
